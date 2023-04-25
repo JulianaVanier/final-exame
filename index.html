@@ -1,0 +1,295 @@
+<!-- Some of modifications in the project -->
+
+<!-- 1- Meta tag description 
+2- Color change to respect the contrast 
+3- Class grouping for repeating styles 
+4- Using just one line for margin 
+5- Icon applied as img 
+6- @media for responsive 
+7- New google fonts 
+8- Added h1, header, nav,footer 
+9- Menu hamburguer for responsive
+10- Alt for images
+11- Organization of the files in the corresponding folders img / css
+12- Applying a new icon with good quality for manufacturing 
+13- Best description for the buttons 
+14- Added meta tag viewport
+15- Added language 
+16- 0 erros at WAVE
+17- Added Aria Tag's
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>PROJET FINAL</title>
+        <!-- add meta tag description -->
+        <meta
+            name="IT Services"
+            content="Information technology (IT) plays a vital role in improving business productivity and teammate collaboration. Learn how to make the most of your IT resources to maximize productivity and success. "
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- FONT AWESOME -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <!-- SLICK SLIDER -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+            integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <nav class="header-flexbox" role="navigation">
+                    <div class="logo-holder">
+                        <img
+                            src="img/stock-exchange-app.png"
+                            alt="Header logo of the company"
+                        />
+                        <p>IT Services</p>
+                    </div>
+
+                    <div class="burger">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="menu-holder">
+                        <ul class="ul-list" role="list">
+                            <li role="listitem">home</li>
+                            <li role="listitem">about us</li>
+                            <li role="listitem">services</li>
+                            <li role="listitem">news</li>
+                            <li role="listitem">contact</li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="section02">
+                <div class="container">
+                    <div class="section02-flex">
+                        <div class="img-left">
+                            <div class="popup">
+                                <div class="iconepop">
+                                    <!-- add alt for images -->
+                                    <img
+                                        src="img/icone2-section02.png"
+                                        alt="Icon for new features"
+                                    />
+                                </div>
+                                <div class="textpop">
+                                    <h3>New Features</h3>
+                                    <p>You have received notification!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-right">
+                            <!-- Changed title for h1 -->
+                            <h1>Grow your business fast</h1>
+                            <div class="text-icone">
+                                <div class="icone">
+                                    <!-- add alt for images -->
+                                    <img
+                                        src="img/stakeholder.png"
+                                        alt="Icon for Teammates"
+                                    />
+                                </div>
+                                <div class="subtext">
+                                    <h3>Engage Teammates</h3>
+                                    <p>
+                                        Naxly bring the power of data science
+                                        and artificial intelligence to every
+                                        business.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="text-icone">
+                                <div class="icone">
+                                    <!-- add alt for images -->
+                                    <img
+                                        src="img/productivity.png"
+                                        alt="Icon Productivity"
+                                    />
+                                </div>
+                                <div class="subtext">
+                                    <h3>Level Up Productivity</h3>
+                                    <p>
+                                        Naxly bring the power of data science
+                                        and artificial intelligence to every
+                                        business.
+                                    </p>
+                                </div>
+                            </div>
+                            <a href="" class="btn">View our products</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section03">
+                <div class="container">
+                    <div class="text1">
+                        <p>
+                            No matter the business, NanoSoft has you covered
+                            with industry compliant solutions, customized to
+                            your company s specific needs.
+                        </p>
+                    </div>
+                    <div class="section03-flex">
+                        <div class="card">
+                            <div class="icone1-sect3">
+                                <img
+                                    src="img/stack1.svg"
+                                    alt="Icon industries & manufacturing"
+                                />
+                            </div>
+                            <div class="title-sect03">
+                                <h4>Industries & Manufacturing</h4>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="icone2-sect3">
+                                <img
+                                    src="img/stack2.svg"
+                                    alt="Icon Education & Health"
+                                />
+                            </div>
+                            <div class="title-sect03">
+                                <h4>Education & Health</h4>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="icone3-sect3">
+                                <img
+                                    src="img/stack3.svg"
+                                    alt="Icon Retail & Ecommerce"
+                                />
+                            </div>
+                            <div class="title-sect03">
+                                <h4>Retail & Ecommerce</h4>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="icone4-sect3">
+                                <img
+                                    src="img/stack4.svg"
+                                    alt="Icon Travel & Hospitality"
+                                />
+                            </div>
+                            <div class="title-sect03">
+                                <h4>Travel & Hospitality</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text2">
+                        <p>Need a Technology support?</p>
+                        <a href="" class="btn">Get Started Now</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section04">
+                <div class="container">
+                    <div class="title-sect04">
+                        <h2>Some of Our Great Stuffs</h2>
+                    </div>
+                    <div class="section04-flex">
+                        <div class="card-sect04">
+                            <div class="img1-sect04"></div>
+                            <div class="subtitle-sect04">
+                                <h3>
+                                    The Security Risks of Changing Package
+                                    Owners
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="card-sect04">
+                            <div class="img2-sect04"></div>
+                            <div class="subtitle-sect04">
+                                <h3>
+                                    The Security Risks of Changing Package
+                                    Owners
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="card-sect04">
+                            <div class="img3-sect04"></div>
+                            <div class="subtitle-sect04">
+                                <h3>
+                                    The Security Risks of Changing Package
+                                    Owners
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+            integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+            integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script>
+            $(window).on("scroll", function () {
+                if ($(window).scrollTop() > 50) {
+                    $("body").addClass("header-bg");
+                } else {
+                    $("body").removeClass("header-bg");
+                }
+            });
+
+            $(".burger").click(function () {
+                $(".menu-holder").slideToggle();
+            });
+
+            $(".slider-holder").slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+            });
+
+
+       </script>
+
+        <footer>
+            <p>Copyright &copy; 2023</p>
+        </footer>
+    </body>
+</html>
