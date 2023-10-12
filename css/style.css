@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    background: linear-gradient(to right, #0c0c1f 0%, #00095e 100%);
+    background: black;
     color: white;
     position: fixed;
     width: 100%;
@@ -115,7 +115,7 @@ header .ul-list li {
 }
 
 header .ul-list li:hover {
-    color: #ff1493;
+    color: #8f3901;
     font-weight: 700;
     cursor: pointer;
 }
@@ -126,13 +126,55 @@ header .ul-list li:hover {
     margin: 0 auto;
 }
 
+.banner_top {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.3)), url(../img/trees-joshua-tree-national-park-usa.jpg);
+    /* background-image: url(../img/trees-joshua-tree-national-park-usa.jpg); */
+
+    /* background-image: url(../img/bg-main-banner.png); */
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    /* height: calc(100vh - 40px); */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner_top p {
+    color: white;
+    /* text-shadow: 2px 1px 2px black; */
+    letter-spacing: 1px;
+    font-size: 90px;
+    text-shadow: 3px 3px 3px black;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+
+.banner_top h1{
+    color: white
+}
+
+
+
+.text{
+    width: 600px;
+    text-align: center;
+}
+
+.text p{
+    color white;
+    font-size: 12px;
+}
+
 section p:last-of-type,
 div p:last-of-type {
     margin-bottom: 0;
 }
 
 .btn {
-    background: linear-gradient(to bottom, #ff4495 0%, #ff6d6d 100%);
+    background: linear-gradient(to bottom, #8f2e02 0%, #080808 100%);
     display: inline-block;
     text-decoration: none;
     /* Color change to respect the contrast */
@@ -142,11 +184,11 @@ div p:last-of-type {
     /* less border-radius */
     border-radius: 8px;
     font-size: 18px;
-    font-weight: 600;
+    /* font-weight: 600; */
 }
 
 .btn:hover {
-    background: #ff1493;
+    background: #000000;
 }
 
 .section02 {
