@@ -296,86 +296,79 @@ div p:last-of-type {
     text-align: center;
 }
 
-.section03-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.section03 h2 {
+    margin-bottom: 1rem;
 }
 
-.section03-flex .card {
-    width: 23%;
-    height: 200px;
-    background: transparent;
-    border: 0.01em solid #3d3d71;
-    padding: 20px 20px;
-    margin-bottom: 50px;
+.section03-grid {
+    margin-bottom: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    grid-gap: 1.5rem;
 }
 
-.section03-flex .title-sect03 {
-    width: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+.product-item {
+    padding: 10px 15px;
+    border: 1px solid black;
 }
 
-/* class grouping for repeating styles */
-.section03-flex .icone1-sect3,
-.section03-flex .icone2-sect3,
-.section03-flex .icone3-sect3,
-.section03-flex .icone4-sect3 {
-    background-size: cover;
+.product-image {
+    width: 100%;
+    height: 350px;
+    margin-bottom: 1rem;
     background-position: center;
-    height: 40px;
-    width: 40px;
-    margin: 20px auto 25px auto;
-    /* --- Using just one line for margin --- */
-    /* margin-top: 20px;
-	margin-bottom: 25px;
-	margin-left: auto;
-	margin-right: auto;	 */
+    background-size: cover;
 }
 
-.section03 h4 {
-    color: white;
-    line-height: 1.5;
-    font-size: 20px;
+.product-image-1 {
+    background-image: url(../img/sotol-product-1.jpg);
 }
 
-.section03 .text1 {
-    /* width: 450px; */
-    margin: auto;
-    padding-bottom: 30px;
-    text-align: center;
+.product-image-2 {
+    background-image: url(../img/sotol-product-2.jpg);
 }
 
-.section03 .text1 p {
-    color: white;
-    font-size: 22px;
+.product-image-3 {
+    background-image: url(../img/sotol-product-3.jpg);
 }
 
-.section03 .text2 {
-    text-align: center;
+.product-image-4 {
+    background-image: url(../img/sotol-product-4.jpg);
 }
 
-.section03 .text2 p {
-    color: white;
-    font-size: 14px;
-    margin-bottom: 20px;
+.product-image-5 {
+    background-image: url(../img/sotol-product-5.jpg);
 }
 
-.section03 .text2 a {
-    margin-left: 5px;
-    color: white;
+.product-image-6 {
+    background-image: url(../img/sotol-product-6.png);
 }
 
-.section03-flex .icone1-sect3 img {
-    animation: iconTransform 3s linear infinite;
-    transform-origin: 50% 50%;
+.product-item h3 {
+    margin-bottom: 1rem;
 }
 
-.section03-flex .icone4-sect3 img {
-    animation: iconTransform 3s linear infinite;
-    transform-origin: 50% 50%;
+.product-item a {
+    padding: 5px 25px;
+    background-color: #375019;
+    border-radius: 10px;
+    color: #f2f2f2;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s linear;
+}
+
+.product-item a:hover {
+    background-color: #0e0d09;
+}
+
+.section03 .btn {
+    background: #a86e3c;
+    transition: all 0.3s linear;
+}
+
+.section03 .btn:hover {
+    background: #0e0d09;
 }
 
 .section04 {
