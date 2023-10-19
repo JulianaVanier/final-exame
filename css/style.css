@@ -291,7 +291,6 @@ div p:last-of-type {
 }
 
 .section03 {
-    background: linear-gradient(to right, #a86e3c 0%, #f2dea2 100%);
     padding: 100px 0;
     text-align: center;
 }
@@ -309,6 +308,7 @@ div p:last-of-type {
 
 .product-item {
     padding: 10px 15px;
+    background-color: #f2dea2;
     border: 1px solid black;
 }
 
@@ -346,6 +346,7 @@ div p:last-of-type {
 
 .product-item h3 {
     margin-bottom: 1rem;
+    font-weight: 500;
 }
 
 .product-item a {
