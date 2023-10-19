@@ -152,19 +152,19 @@ header .ul-list li:hover {
     text-transform: capitalize;
 }
 
-.banner_top h1{
+.banner_top h1 {
     color: white
 }
 
 
 
-.text{
+.text {
     width: 600px;
     text-align: center;
 }
 
-.text p{
-    color white;
+.text p {
+    color: white;
     font-size: 12px;
 }
 
@@ -222,6 +222,7 @@ div p:last-of-type {
 .text-right img {
     max-width: 80px;
 }
+
 .text-icone {
     display: flex;
     justify-content: space-between;
@@ -543,9 +544,11 @@ footer p {
     .section02 .icone {
         margin-top: 0;
     }
+
     .section03 .card h4 {
         font-size: 16px;
     }
+
     .section03 .title-sect03 {
         width: fit-content;
     }
