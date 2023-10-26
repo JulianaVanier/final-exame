@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&family=Poppins:wght@200;400;500;600;700;800&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
 /* font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif; */
 
@@ -25,6 +26,7 @@ header {
 
 body.header-bg header {
     background: #375019;
+    z-index: 10;
 }
 
 header .header-flexbox {
@@ -168,10 +170,10 @@ header .ul-list li:hover {
     font-size: 12px;
 }
 
-section p:last-of-type,
+/* section p:last-of-type,
 div p:last-of-type {
     margin-bottom: 0;
-}
+} */
 
 .btn {
     background: linear-gradient(to bottom, #8f2e02 0%, #080808 100%);
@@ -185,6 +187,8 @@ div p:last-of-type {
     border-radius: 8px;
     font-size: 18px;
     /* font-weight: 600; */
+    margin-top: 20px;
+
 }
 
 .btn:hover {
@@ -293,6 +297,7 @@ div p:last-of-type {
 .section03 {
     padding: 100px 0;
     text-align: center;
+    background: linear-gradient(0.75turn, #bbbbbb5e, #fff 25%);
 }
 
 .section03 h2 {
@@ -308,8 +313,8 @@ div p:last-of-type {
 
 .product-item {
     padding: 10px 15px;
-    background-color: #f2dea2;
-    border: 1px solid black;
+    /* background-color: #f2dea2;
+    border: 1px solid black; */
 }
 
 .product-image {
@@ -419,8 +424,124 @@ div p:last-of-type {
     margin-top: 25px;
 }
 
+
+
+/* -----------------------------franks part */
+
+
+.middle-section {
+    padding: 120px 0;
+    overflow: hidden;
+    background: linear-gradient(0.75turn, #bbbbbb5e, #fff 25%);
+  }
+  
+  .middle-sec-flex {
+    display: flex;
+    gap: 4em;
+    position: relative;
+  }
+  
+  .image {
+    width: calc(50% - 30px);
+    overflow: hidden;
+    border-radius: 10px;
+    height: 400px;
+  }
+  
+  .image img {
+    width: 740px;
+    z-index: 20;
+    position: relative;
+  }
+  
+  #image-support {
+    position: absolute;
+    height: 350px;
+    top: -4em;
+    left: -6em;
+  }
+  
+  .text2 {
+    width: 50%;
+    padding: 20px 0;
+    text-align: left;
+  }
+  
+  .text2 p  {
+    color: black;
+   font-size: 18px;
+   text-align: left;
+   margin-bottom: 30px;
+  }
+
+  .text2 span {
+    margin-bottom: 10px;
+    font-family: "Allura", cursive;
+    font-size: 50px;
+    color: #d63c31;
+    font-weight: normal;
+  }
+
+  .text2 a{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 5px 25px;
+    margin-top: 20px;
+    background: linear-gradient(to bottom, #ff5a0f 0%, #003104 100%);
+    border-radius: 10px;
+  }
+  
+  .recipies-special {
+    position: relative;
+    margin-left: 10em;
+    padding-top: 10em;
+  }
+
+  
+  .wrapper {
+    width: 50%;
+  }
+
+  .wrapper p{
+    font-size: 16px;
+   color: black;
+  }
+  
+  .recipies-special img {
+    position: absolute;
+    right: 0;
+    top: -4em;
+    padding: 20px;
+    animation: spin 10s linear infinite;
+    max-width: 50%;
+    height: auto;
+    margin: 20px;
+    width: 400px;
+  }
+  
+  #animated-img:hover {
+    /* Toggle our animation play state to running when we are hovering over our sticker */
+    animation-play-state: paused;
+    /* animation-play-state: running; */
+  }
+  
+  @keyframes spin {
+    100% {
+      transform: rotate(10deg);
+    }
+    50% {
+      transform: rotate(-5deg);
+    }
+  
+    0% {
+      transform: rotate(10deg);
+    }
+  }
+/* -----------------------------frnkss part end   */
+
 footer {
-    background-color: rgb(24, 2, 67);
+    background-color: black;
     padding: 20px;
     text-align: center;
 }
